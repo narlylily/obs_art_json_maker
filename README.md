@@ -1,6 +1,6 @@
 # obs_art_json_maker
 a very very simple web app for generating a json from selected files!
-made to be used w/ https://github.com/adrianmgg/obs_art_slidesho
+made to be used w/ https://github.com/adrianmgg/obs_art_slideshow
 
 # instructions
 1. download on your computer
