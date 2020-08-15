@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             "artist" : "tbd",
                             "type" : "image"
                             });
-                        } else if (f.type.includes("video") || f.type.includes("application/x-mpegUR")) {
+                        } else if (f.type.includes("video") || f.type.includes("application/x-mpegURL")) {
                             json.push({
                             "path" : "images/" + f.name,
                             "artist" : "tbd",
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function displayJSON() {
-        document.getElementById('response').innerHTML = JSON.stringify(json);
+        document.getElementById('response').innerHTML = JSON.stringify(json, null, 4);
     }
 
     document.getElementById('fileinput').addEventListener('change', readMultipleFiles, false);
