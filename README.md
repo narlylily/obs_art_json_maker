@@ -16,3 +16,4 @@ made to be used w/ https://github.com/adrianmgg/obs_art_slidesho
 4. this hasn't been extremely stress tested bc i just don't have the resources to test all possible inputs
 5. VERY IMPORTANT: if dealing with large amounts of files, it'll take a while to process it all. this means if you click the display button immediately, there's a chance that not all of the images will be shown in the json object. you can remedy this by just clicking the display button again. i'll maybe get around to just disabling the button until it's ready someday, but uhhhh i'm tired
 6. the json object WILL get very long very fast due to styling for making it readable lol. i'd recommend just crtl + a'ing it and deleting the first line in order to copy it quick
+7. this does not fill in anything accurate for the author as of right now. it just throws in "tbd"
